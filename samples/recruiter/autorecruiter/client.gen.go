@@ -5,8 +5,8 @@ package autorecruiter
 import (
 	"context"
 
-	"github.com/troylelandshields/hardconversations/chat"
-	"github.com/troylelandshields/hardconversations/samples/recruiter/resumes"
+	"github.com/be-brite/hardconversations/chat"
+	"github.com/be-brite/hardconversations/samples/recruiter/resumes"
 	
 )
 

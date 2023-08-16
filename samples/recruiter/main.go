@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/troylelandshields/hardconversations/chat"
-	"github.com/troylelandshields/hardconversations/logger"
-	"github.com/troylelandshields/hardconversations/samples/recruiter/autorecruiter"
-	"github.com/troylelandshields/hardconversations/samples/recruiter/resumes"
-	"github.com/troylelandshields/hardconversations/sources"
+	"github.com/be-brite/hardconversations/chat"
+	"github.com/be-brite/hardconversations/logger"
+	"github.com/be-brite/hardconversations/samples/recruiter/autorecruiter"
+	"github.com/be-brite/hardconversations/samples/recruiter/resumes"
+	"github.com/be-brite/hardconversations/sources"
 )
 
 const (

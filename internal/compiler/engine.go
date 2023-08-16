@@ -4,8 +4,8 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/troylelandshields/hardconversations/internal/codegen"
-	"github.com/troylelandshields/hardconversations/internal/config"
+	"github.com/be-brite/hardconversations/internal/codegen"
+	"github.com/be-brite/hardconversations/internal/config"
 )
 
 type Compiler struct {

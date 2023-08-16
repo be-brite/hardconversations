@@ -13,10 +13,6 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
-	// "github.com/troylelandshields/hardc/internal/codegen/golang"
-	// "github.com/troylelandshields/hardc/internal/debug"
-	// "github.com/troylelandshields/hardc/internal/info"
-	// "github.com/troylelandshields/hardc/internal/tracer"
 )
 
 // Do runs the command logic.

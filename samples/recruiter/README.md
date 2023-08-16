@@ -2,7 +2,7 @@
 
 Given a job description and a database of resumes, find the candidates that are most suited to the job and generate an email address to send to them.
 
-See generated client usage in [main.go](https://github.com/troylelandshields/hardconversations/blob/main/samples/recruiter/main.go).
+See generated client usage in [main.go](https://github.com/be-brite/hardconversations/blob/main/samples/recruiter/main.go).
 
 # hardc.yaml
 
@@ -21,12 +21,12 @@ conversations:
       - function_name: GetCandidateInfo
         prompt: "Return the candidate info from the resume"
         input: string
-        output: github.com/troylelandshields/hardconversations/samples/recruiter/resumes.Candidate
+        output: github.com/be-brite/hardconversations/samples/recruiter/resumes.Candidate
 
       - function_name: GenerateRecruiterMessage
         prompt: Generate a message to send to the candidate about the job; mention what you like about their resume and why you think they would be a good fit for the job.
-        input: "github.com/troylelandshields/hardconversations/samples/recruiter/resumes.RecruiterMessageRequest"
-        output: github.com/troylelandshields/hardconversations/samples/recruiter/resumes.Email
+        input: "github.com/be-brite/hardconversations/samples/recruiter/resumes.RecruiterMessageRequest"
+        output: github.com/be-brite/hardconversations/samples/recruiter/resumes.Email
 ```
 
 ## Usage

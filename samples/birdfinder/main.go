@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/troylelandshields/hardconversations/samples/birdfinder/birdai"
+	"github.com/be-brite/hardconversations/samples/birdfinder/birdai"
 )
 
 func main() {

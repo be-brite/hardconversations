@@ -5,7 +5,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/troylelandshields/hardconversations/internal/config"
+	"github.com/be-brite/hardconversations/internal/config"
 )
 
 func ExecuteTemplate(convo config.Conversation) ([]byte, error) {

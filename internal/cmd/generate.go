@@ -13,9 +13,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/troylelandshields/hardconversations/internal/compiler"
-	"github.com/troylelandshields/hardconversations/internal/config"
-	"github.com/troylelandshields/hardconversations/internal/multierr"
+	"github.com/be-brite/hardconversations/internal/compiler"
+	"github.com/be-brite/hardconversations/internal/config"
+	"github.com/be-brite/hardconversations/internal/multierr"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -5,7 +5,7 @@ package moderatorai
 import (
 	"context"
 
-	"github.com/troylelandshields/hardconversations/chat"
+	"github.com/be-brite/hardconversations/chat"
 	
 )
 

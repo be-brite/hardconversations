@@ -5,7 +5,7 @@ package {{.Package}}
 import (
 	"context"
 
-	"github.com/troylelandshields/hardconversations/chat"
+	"github.com/be-brite/hardconversations/chat"
 	{{ range .Imports }}"{{ . }}"
 	{{ end }}
 )
@@ -44,9 +44,7 @@ func (c *Thread) NewThread(opt ...chat.ConfigOption) *Thread {
 {{ range .Questions }}
 
 // TODO: handle different input and output types, arrays, structs, etc
-func (t *Thread) {{ .FunctionName }}(ctx context.Context{{ if and .InputParsed .InputParsed.TypeName}}, input {{.InputParsed.TypeName}}{{end}}) (result {{ .OutputParsed.TypeName }}, md chat.Metadata, err error) {
-	const prompt = `{{ .Prompt }}` // TODO initialize text embedding
-
+func (t *Thread) {{ .FunctionName }}(ctx context.Context, prompt string{{ if and .InputParsed .InputParsed.TypeName}}, input {{.InputParsed.TypeName}}{{end}}) (result {{ .OutputParsed.TypeName }}, md chat.Metadata, err error) {
 	parseInstruction, err := chat.ParseInstruction(result)
 	if err != nil {
 		return result, chat.Metadata{}, err

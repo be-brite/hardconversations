@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/troylelandshields/hardconversations/samples/moderator/moderatorai"
+	"github.com/be-brite/hardconversations/samples/moderator/moderatorai"
 )
 
 const theRules = `The rules are simple:

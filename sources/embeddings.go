@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/be-brite/hardconversations/internal/tokens"
 	"github.com/drewlanenga/govector"
 	"github.com/pkg/errors"
 	gogpt "github.com/sashabaranov/go-openai"
-	"github.com/troylelandshields/hardconversations/internal/tokens"
 )
 
 const (

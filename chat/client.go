@@ -3,9 +3,9 @@ package chat
 import (
 	"fmt"
 
+	"github.com/be-brite/hardconversations/internal/tokens"
+	"github.com/be-brite/hardconversations/sources"
 	gogpt "github.com/sashabaranov/go-openai"
-	"github.com/troylelandshields/hardconversations/internal/tokens"
-	"github.com/troylelandshields/hardconversations/sources"
 )
 
 type Client struct {

@@ -4,7 +4,7 @@
 
 Given a page of text, count how many birds there are. Parse the details of each bird, and then generate a nice description.
 
-See generated client usage in [main.go](https://github.com/troylelandshields/hardconversations/blob/main/samples/birdfinder/main.go).
+See generated client usage in [main.go](https://github.com/be-brite/hardconversations/blob/main/samples/birdfinder/main.go).
 
 # birdfinder.yaml
 
@@ -22,10 +22,10 @@ conversations:
         
       - function_name: ParseBird
         prompt: Can you parse the details of each bird? 
-        output: "[]github.com/troylelandshields/hardconversations/samples/birdfinder/bird.Bird"
+        output: "[]github.com/be-brite/hardconversations/samples/birdfinder/bird.Bird"
 
       - function_name: DescribeBird 
-        input: github.com/troylelandshields/hardconversations/samples/birdfinder/bird.Bird
+        input: github.com/be-brite/hardconversations/samples/birdfinder/bird.Bird
         output: string
         prompt: Describe the bird with the given properties and add a fun fact (make it up if you have to)
 ```

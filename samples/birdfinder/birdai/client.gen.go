@@ -5,8 +5,8 @@ package birdai
 import (
 	"context"
 
-	"github.com/troylelandshields/hardconversations/chat"
-	"github.com/troylelandshields/hardconversations/samples/birdfinder/bird"
+	"github.com/be-brite/hardconversations/chat"
+	"github.com/be-brite/hardconversations/samples/birdfinder/bird"
 	
 )
 

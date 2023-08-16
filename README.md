@@ -41,14 +41,14 @@ Use your statically typed client to easily build an application.
 	}
 ```
 
-[Bigger Example Below](https://github.com/troylelandshields/hardconversations/blob/main/README.md#example)
+[Bigger Example Below](https://github.com/be-brite/hardconversations/blob/main/README.md#example)
 
 ### Quickstart
 
 #### Installation
 
 ```bash
-go install github.com/troylelandshields/hardconversations/cmd/hardc
+go install github.com/be-brite/hardconversations/cmd/hardc
 ```
 
 #### Usage
@@ -115,12 +115,12 @@ conversations:
       - function_name: GetCandidateInfo
         prompt: "Return the candidate info from the resume"
         input: string
-        output: github.com/troylelandshields/hardconversations/samples/recruiter/resumes.Candidate
+        output: github.com/be-brite/hardconversations/samples/recruiter/resumes.Candidate
 
       - function_name: GenerateRecruiterMessage
         prompt: Generate a message to send to the candidate about the job; mention what you like about their resume and why you think they would be a good fit for the job.
-        input: "github.com/troylelandshields/hardconversations/samples/recruiter/resumes.RecruiterMessageRequest"
-        output: github.com/troylelandshields/hardconversations/samples/recruiter/resumes.Email
+        input: "github.com/be-brite/hardconversations/samples/recruiter/resumes.RecruiterMessageRequest"
+        output: github.com/be-brite/hardconversations/samples/recruiter/resumes.Email
 ```
 
 Now that we've defined this "conversation", we want to be able to write an application that can use this functionality. We use the `hardc` CLI to generate libraries from this YAML file by executing `hardc generate -f path/to/file.yaml`.
@@ -181,9 +181,9 @@ Solving any single one of these problems in software may have been pretty diffic
 
 ## More Samples
 
-* [Automoderator](https://github.com/troylelandshields/hardconversations/tree/main/samples/moderator)
-* [Bird-finder](https://github.com/troylelandshields/hardconversations/tree/main/samples/birdfinder)
-* [AI Recruiter](https://github.com/troylelandshields/hardconversations/tree/main/samples/recruiter)
+* [Automoderator](https://github.com/be-brite/hardconversations/tree/main/samples/moderator)
+* [Bird-finder](https://github.com/be-brite/hardconversations/tree/main/samples/birdfinder)
+* [AI Recruiter](https://github.com/be-brite/hardconversations/tree/main/samples/recruiter)
 * TODO: HotDog/NotHotDog (once I have access to the ChatGPT4 and can use images as an input)
 
 ## Acknowledgements	

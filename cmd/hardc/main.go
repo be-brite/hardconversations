@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/troylelandshields/hardconversations/internal/cmd"
+	"github.com/be-brite/hardconversations/internal/cmd"
 )
 
 func main() {
