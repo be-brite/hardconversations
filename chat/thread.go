@@ -11,9 +11,6 @@ import (
 
 const baseSystemMessage = `You are an assistant interfacing with a machine, so answers must be given in the correct output with no surrounding punctuation. If you can't fulfill the request, or don't find a value, respond with "unknown". %s
 
-You can use the following information in responses:
-
-###
 `
 
 const (
