@@ -1,4 +1,4 @@
-module github.com/troylelandshields/hardconversations
+module github.com/be-brite/hardconversations
 
 go 1.19
 
